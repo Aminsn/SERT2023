@@ -131,6 +131,7 @@ def forecast_loss(y_true, y_pred, dim=num_var):
     # Mask -> y_true[:, dim:]
     return K.sum(y_true[:, dim:]*(y_true[:, :dim]-y_pred)**2, axis=-1)
 
+# ---- Fitting Triplet encoding based models: SERT, STraTS, SST-ANN -----#
 
 rmse_sert = []
 rmse_strats = []
@@ -231,7 +232,8 @@ for fraction in tqdm(sparsity_levels):
     rmse_sst_ann.append(st_ann_rmse)
 
 
-# ----- LSTM ----- #
+# ----- Fitting LSTM ----- #
+
 df = pd.read_csv('Simulation_study/data/simulated_data.csv')
 df_base = df.drop('time', axis=1)
 
@@ -307,7 +309,8 @@ for fraction in tqdm(sparsity_levels):
     rmse_lstm.append(rmse)
 
 
-# ----- Naive ----- #
+# ----- Applying Naive ----- #
+
 rmse_naive = []
 
 for fraction in tqdm(sparsity_levels):
