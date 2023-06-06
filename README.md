@@ -18,7 +18,7 @@ We deal with spatiotemporal data with contineous inputs. An example of such a da
 
 
 ## SERT Model
-SERT takes in each observation as a triplet (time, variable, value) and encodes it into a embedding vector that is the latent representation of the observation. Then a transformer encoder with a linear layer is used to predict the future values. The model is shown below:
+SERT takes in each observation as a triplet (time, variable, value) and encodes it into an embedding vector that is the latent representation of the observation. Then a transformer encoder with a linear layer is used to predict the future values. The model is shown below:
 
 ![](readme_media/sert.png)
 
