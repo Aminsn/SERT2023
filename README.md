@@ -1,4 +1,4 @@
-**SERT: A Transfomer Based Model for Spatio-Temporal Data with Missing Values**
+# SERT: A Transfomer Based Model for Spatio-Temporal Data with Missing Values
 
 This repository contains the code for the paper, "SERT: A Transfomer Based Model for Spatio-Temporal Sensor Data with Missing Values for Environmental Monitoring", Shoari Nejad et al., 2023. ([arXiv](http://arxiv.org/abs/2306.03042)).
 
