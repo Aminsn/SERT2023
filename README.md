@@ -1,3 +1,4 @@
+**Important update:** To use the model, please refer to the ["sert" Python package](https://github.com/Aminsn/sert), which provides an easy-to-use API and straightforward installation.  
 # SERT: A Transfomer Based Model for Spatio-Temporal Data with Missing Values
 
 This repository contains the code for the paper, "SERT: A Transfomer Based Model for Spatio-Temporal Sensor Data with Missing Values for Environmental Monitoring", Shoari Nejad et al., 2023. ([arXiv](http://arxiv.org/abs/2306.03042)).
